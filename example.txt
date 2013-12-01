@@ -1,0 +1,42 @@
+= Exmample Document =
+
+== About this document ==
+
+This document is to explain how Publish Master document compose of. This document is written in AsciiDoc format.
+Note that Publish Master also support Markdown format!
+
+== What is AsciiDoc? ==
+
+AsciiDoc is an plain text markup format for writing small description to books, web pages etc.
+AsciiDoc has many features such as sectioning, itemize, file including, image insertion, and many more.
+
+== How AsciiDoc Text Visualize? ==
+
+You can describe an itemize text as following.
+
+  * This is a first item
+  * This is a second item
+  * This is a third item
+  * This is a forth item
+
+Of cource, numbered itemize text can be described very easily.
+
+  . This is a first item
+  . This is a second item
+  . This is a third item
+  . This is a forth item
+
+You can describe verbatim block as following.
+
+-------------------------------------------------------------------------------
+$ cat hello.c
+#include <stdio.h>
+int main(void)
+{
+  printf("Hello, world!\n");
+  return 0;
+}
+$ gcc -Wall -o hello hello.c
+$ ./hello
+Hello, world!
+-------------------------------------------------------------------------------
